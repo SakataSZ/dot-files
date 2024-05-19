@@ -2,6 +2,8 @@ cask "iterm2"
 cask "visual-studio-code"
 cask "google-chrome"
 
+cask "font-fira-code-nerd-font"
+
 brew "coreutils"
 
 brew "git"
