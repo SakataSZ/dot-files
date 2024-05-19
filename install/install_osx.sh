@@ -1,5 +1,6 @@
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+ln -fnsv "$SCRIPT_DIR/install/.Brewfile" "$HOME"
 
-ln -fnsv "$SCRIPT_DIR/.Brewfile" "$HOME"
+source "$HOME/.zshrc"
+source "$HOME/.zprofile"
 
 brew bundle --global

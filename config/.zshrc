@@ -10,4 +10,6 @@ case "$OS" in
         ;;
 esac
 
+source ~/.zsh_aliases
+
 eval "$(starship init zsh)"

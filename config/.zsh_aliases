@@ -1,0 +1,5 @@
+# alias
+alias ll='ls -alF'
+alias cl='clear'
+
+alias v='nvim'

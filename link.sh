@@ -1,8 +1,6 @@
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+for dotfile in "${SCRIPT_DIR}/config"/.??*; do
+	[[ "$dotfile" == "${SCRIPT_DIR}/.DS_Store" ]] && continue
+	[[ "$dotfile" == *.swp ]] && continue
 
-for dotfile in "${SCRIPT_DIR}/config"/.??* ; do
-    [[ "$dotfile" == "${SCRIPT_DIR}/.DS_Store" ]] && continue
-    [[ "$dotfile" == *.swp ]] && continue
-
-    ln -fnsv "$dotfile" "$HOME"
+	ln -fnsv "$dotfile" "$HOME"
 done
