@@ -18,5 +18,7 @@ brew "curl"
 brew "ripgrep"
 brew "fzf"
 
+brew "antigen"
+
 brew "starship"
 brew "neovim"
