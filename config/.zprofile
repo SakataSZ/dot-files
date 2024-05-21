@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 OS=$(uname -s)
 
 case "$OS" in

@@ -1,5 +1,8 @@
-# alias
+#!/bin/zsh
+
 alias ll='ls -alF'
 alias cl='clear'
+alias ..='cd ../'
+alias ...='cd ../../'
 
 alias v='nvim'
