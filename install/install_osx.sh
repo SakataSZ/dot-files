@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 ln -fnsv "$SCRIPT_DIR/install/.Brewfile" "$HOME"
 
 source "$HOME/.zshrc"

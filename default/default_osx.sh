@@ -1,5 +1,5 @@
 defaults write -g KeyRepeat -int 1
-defaults write -g InitialKeyRepeat -int 10
+defaults write -g InitialKeyRepeat -int 20
 defaults write -g com.apple.mouse.tapBehavior -int 1
 
 ## .DS_Storeファイルを作成しない
@@ -19,3 +19,6 @@ defaults write -g QLPanelAnimationDuration -float 0
 
 ## Dockからアプリを起動するときのアニメーションを無効
 defaults write com.apple.dock launchanim -bool false
+
+## Finderで隠しファイルを表示
+defaults write com.apple.finder AppleShowAllFiles -bool true

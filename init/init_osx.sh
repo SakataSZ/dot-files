@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 install_xcode() {
     if xcode-select -p &> /dev/null; then

@@ -1,4 +1,5 @@
-# OS detection
+#!/bin/zsh
+
 get_os() {
 	local uname="$(uname -s)"
 

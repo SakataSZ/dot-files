@@ -11,6 +11,7 @@ brew "lazygit"
 brew "gh"
 
 brew "asdf"
+brew "rustup-init"
 
 brew "gpg"
 brew "gawk"

@@ -11,3 +11,6 @@ case "$OS" in
         echo "Unsupported OS: $OS"
         ;;
 esac
+
+export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/.ripgreprc"
+export LANG="en_US.UTF-8"
